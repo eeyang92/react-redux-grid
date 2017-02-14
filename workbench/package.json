@@ -1,7 +1,7 @@
 {
-  "name": "react-flow-webpack-bp-workbench",
+  "name": "react-redux-grid-workbench",
   "version": "1.0.0",
-  "description": "React + Flow + Webpack Boilerplate Workbench",
+  "description": "React Redux Grid Workbench",
   "scripts": {
     "clear-dist": "rm -rf dist/*",
     "start": "npm run clear-dist; NODE_ENV=development PORT=3002 node -r babel-register node_modules/.bin/webpack-dev-server --inline",

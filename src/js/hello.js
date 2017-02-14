@@ -4,6 +4,8 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { clickButton } from '../actions/index'
 
+import DraggableShape from './shapes/draggable_shape'
+
 type Props = {}
 type State = {
 	count: number
@@ -19,8 +21,8 @@ class ReactReduxGrid extends Component {
 
 	render() {
 		return (
-			<div onClick={ this.onClick.bind(this) } style={{ backgroundColor: 'grey' }}>
-				Hello!
+			<div style={{ backgroundColor: 'grey', height: '100%', width: '100%' }}>
+				<DraggableShape />
 			</div>
 		)
 	}
